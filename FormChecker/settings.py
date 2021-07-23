@@ -30,6 +30,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'FormChecker.apps.FormCheckerConfig',
+
+    'debug_toolbar',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
