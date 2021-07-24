@@ -15,4 +15,4 @@ WEB-app for defining completed forms.
         6. Migration: "python manage.py migrate"
         7. Populate db with initial data: "python manage.py loaddata FormChecker\fixture.json"
         8. Run local server: "python manage.py runserver"
-        9. Test app in venv: "python FormChecker\test_script"
+        9. Test app in venv: "python FormChecker\test_script.py"
