@@ -1,57 +1,62 @@
 [
   {
     "model":"FormChecker.FormTemplate",
-    "pk":1,
     "fields":{
       "name": "Order form",
       "email":"a@gmail.com",
-      "tel_number":"+79251112233",
+      "tel_number":"+7 925 111 22 33",
       "date":"2021-1-1",
-      "text":"Hello"
+      "text":"Hello from Order form"
     }
   },
   {
     "model":"FormChecker.FormTemplate",
-    "pk":2,
     "fields":{
       "name": "Check form",
       "email":"b@gmail.com",
-      "tel_number":"+79251112244",
+      "tel_number":"+7 925 111 22 44",
       "date":"2021-1-2",
-      "text":"Hi"
+      "text":"Hello from Check form"
     }
   },
   {
     "model":"FormChecker.FormTemplate",
-    "pk":3,
     "fields":{
       "name": "Male form",
       "email":"c@gmail.com",
-      "tel_number":"+79251112255",
+      "tel_number":"+7 925 111 22 55",
       "date":"2021-1-3",
-      "text":"Holla"
+      "text":"Hello from Male form"
     }
   },
   {
     "model":"FormChecker.FormTemplate",
-    "pk":4,
     "fields":{
       "name": "Class form",
       "email":"d@gmail.com",
-      "tel_number":"+79251112266",
+      "tel_number":"+7 925 111 22 66",
       "date":"2021-1-4",
-      "text":"ZZ"
+      "text":"Hello from Class form"
     }
   },
     {
     "model":"FormChecker.FormTemplate",
-    "pk":5,
     "fields":{
       "name": "SUR form",
       "email":"f@gmail.com",
-      "tel_number":"+79251112212",
+      "tel_number":"+7 925 111 22 12",
       "date":"2021-1-7",
-      "text":"Hello"
+      "text":"Hello from SUR form"
+    }
+  },
+    {
+    "model":"FormChecker.FormTemplate",
+    "fields":{
+      "name": "Another form",
+      "email":"h@gmail.com",
+      "tel_number":"+7 925 111 22 12",
+      "date":"2021-1-7",
+      "text":"Hello from another form"
     }
   }
 ]
