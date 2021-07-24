@@ -58,5 +58,15 @@
       "date":"2021-1-7",
       "text":"Hello from another form"
     }
+  },
+    {
+    "model":"FormChecker.FormTemplate",
+    "fields":{
+      "name": "Second another form",
+      "email":"h@gmail.com",
+      "tel_number":"+7 925 111 22 12",
+      "date":"2021-1-7",
+      "text":"Hello from another form"
+    }
   }
 ]
