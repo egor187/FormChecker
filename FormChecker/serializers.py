@@ -8,19 +8,19 @@ import re
 class FormTemplateWriteSerializer(serializers.ModelSerializer):
     class Meta:
         model = FormTemplate
-        fields = "__all__"
+        fields = ("date", "tel_number", "email", "text",)
         read_only_fields = (fields,)
 
-    def validate_tel_number(self, value):
+    def validate_tel_number(self, value: str):
         """
         validating 'tel_number' field
         """
-        pattern = re.compile(r"^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$")
+        pattern = re.compile(r"^\+?[78] ?\d{3} \)?-?\d{3} -?\d{2} -?\d{2}$")
         reg_res = pattern.match(str(value))
         if reg_res:
             return value
         else:
-            raise serializers.ValidationError("Incorrect tel number format")
+            raise serializers.ValidationError("Incorrect tel number format. Required: +7 xxx xx xx")
 
 
 class FormTemplateReadSerializer(FormTemplateWriteSerializer):
