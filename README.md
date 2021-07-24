@@ -13,4 +13,5 @@ WEB-app for defining completed forms.
         4. Get dependecies: "pip install -r requirements.txt"
         5. Migration: "python manage.py migrate"
         6. Populate db with initial data: "python manage.py loaddata fixture.json"
-        7. Test app: "python test_script"
+        7. Run local server: "python manage.py runserver"
+        8. Test app in venv: "python test_script"
